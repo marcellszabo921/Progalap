@@ -19,6 +19,7 @@ int main(int argc, char const *argv[])
     double circumfence =2*r*M_PI;
     double area = pow(r,2)*M_PI;
     printf("pi: %lf A: %lf C: %lf",M_PI,area,circumfence);
+    printf("%c\n",'c');
 
     return 0;
 }
